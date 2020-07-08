@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+.required {
+    color: red;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  label{
+    float:right;
+  }
+  body{
+  background-image: url(./1.pg.jpg);
+  color: azure;
+}
+
+.input{
+  margin: 10px 0;
+  background: transparent;
+  border: 2px;
+  border-bottom: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+select{
+  margin-top: 40px;
+}
+.radio{
+  margin-top: 40px;
+}
+.student{
+  background: transparent;
+  background-color: rgba(206, 94, 94, 0.4);
+  width: 234px;
+}
+*{
+  font-family: 'Piedra', cursive;
+}
